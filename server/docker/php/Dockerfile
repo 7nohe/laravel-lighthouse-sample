@@ -1,4 +1,4 @@
-FROM php:7
+FROM php:7-fpm
 
 # For composer
 RUN apt-get update \
